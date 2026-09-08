@@ -11,6 +11,16 @@
     *{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font-family:Inter,"Noto Sans JP",-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;font-size:14px}button,select,input{font:inherit}button,select{cursor:pointer}button:focus-visible,select:focus-visible,input:focus-visible,canvas:focus-visible,a:focus-visible{outline:3px solid #4278d5;outline-offset:4px}button{transition:background .15s,transform .15s}button:active{transform:translateY(1px)}a{color:inherit;text-underline-offset:3px}.shell{max-width:1320px;margin:auto;padding:0 36px}header{height:90px;display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid var(--line)}.brand{display:flex;gap:12px;align-items:center;font-size:19px;font-weight:800;letter-spacing:-.7px}.logo{display:grid;grid-template-columns:repeat(2,9px);gap:3px;transform:rotate(-8deg)}.logo i{width:9px;height:9px;border-radius:2px;background:var(--red)}.logo i:nth-child(2){background:var(--blue)}.logo i:nth-child(3){background:var(--green)}.logo i:nth-child(4){background:#e5b54e}.header-note{font:11px monospace;letter-spacing:1.5px;color:var(--muted)}.intro{display:flex;align-items:center;justify-content:space-between;gap:20px;padding:32px 0 25px}.eyebrow{font:10px monospace;letter-spacing:2px;color:var(--muted);margin:0 0 10px}h1{font-size:27px;letter-spacing:-.8px;margin:0 0 9px;font-weight:650}.subtitle{font-size:12px;color:var(--muted);margin:0;line-height:1.8}.controls{display:flex;gap:8px;flex-shrink:0}.button{border:1px solid #d7dad2;border-radius:7px;padding:10px 15px;background:transparent;color:var(--ink);font-size:12px;display:inline-flex;gap:8px;align-items:center;justify-content:center}.button:hover{background:#eaece5}.button.primary{background:#283d35;border-color:#283d35;color:#fff;min-width:115px}.button.primary:hover{background:#385346}.button svg{width:14px;height:14px;fill:none;stroke:currentColor;stroke-width:1.7}.scores{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;margin-bottom:22px}.score-card{background:#fff;border:1px solid var(--line);border-radius:10px;padding:17px 20px 15px;position:relative;overflow:hidden}.score-top{display:flex;align-items:center;justify-content:space-between;gap:8px}.team-label{display:flex;align-items:center;gap:8px;font-size:12px;font-weight:600}.dot{display:inline-block;width:8px;height:8px;border-radius:50%;background:var(--team);flex-shrink:0}.team-en{font:10px monospace;letter-spacing:1px;color:var(--muted)}.score-number{font-size:34px;letter-spacing:-1px;line-height:1.3;font-variant-numeric:tabular-nums;font-weight:550;margin:9px 0 3px}.score-number small{font-size:11px;color:var(--muted);font-weight:400;letter-spacing:0;margin-left:5px}.score-bottom{display:flex;align-items:center;justify-content:space-between;font-size:10px;color:var(--muted)}.score-card:after{content:"";position:absolute;bottom:0;left:0;height:3px;background:var(--team);width:var(--share,25%);transition:width .3s}.main-grid{display:grid;grid-template-columns:minmax(0,.92fr) minmax(0,1.08fr);gap:22px;align-items:stretch}.panel{background:#fff;border:1px solid var(--line);border-radius:11px;overflow:hidden}.panel-heading{height:65px;display:flex;align-items:center;justify-content:space-between;padding:0 22px;border-bottom:1px solid #edf0e9;gap:8px}.panel-title{font-size:13px;font-weight:600;margin:0}.panel-index{font:10px monospace;color:#9ba19b;margin-right:9px}.live{font:10px monospace;letter-spacing:1px;display:flex;align-items:center;gap:6px;color:#4b8565}.live:before{content:"";width:6px;height:6px;border-radius:50%;background:currentColor}.live.paused{color:#aa812b}.board-wrap{padding:18px;background:#fafbf8}#pongCanvas{display:block;width:100%;aspect-ratio:1;border-radius:4px;background:#273e35}.board-footer{border-top:1px solid #edf0e9;display:flex;justify-content:space-between;gap:8px;padding:15px 21px;font-size:10px;color:var(--muted);font-variant-numeric:tabular-nums}.board-footer b{font-family:monospace;color:var(--ink);font-size:12px;font-weight:500;margin-left:5px}.chart-panel{display:flex;flex-direction:column}.chart-top{padding:21px 22px 6px;display:flex;justify-content:space-between;gap:10px;align-items:center}.chart-legend{display:flex;flex-wrap:wrap;gap:13px}.legend-item{font-size:10px;display:flex;align-items:center;gap:5px}.legend-line{width:15px;height:2px;background:var(--team)}select{border:1px solid var(--line);border-radius:5px;background:#fff;color:#626a65;padding:7px 23px 7px 9px;font-size:10px}.chart-axis-label{padding:12px 23px 0;color:#92998f;font-size:10px}.chart-wrap{position:relative;margin:0 12px;flex:1;min-height:245px}#historyCanvas{display:block;width:100%;height:100%;min-height:245px;touch-action:pan-y}.chart-help{font-size:10px;color:#92998f;text-align:center;margin:1px 15px 18px;line-height:1.7}.history-detail{border-top:1px solid #e9ece5;margin:0 22px;padding:15px 0 18px}.detail-header{display:flex;justify-content:space-between;align-items:center;margin-bottom:15px}.detail-title{font-size:11px;color:var(--muted)}#inspectTime{color:var(--ink);font:12px monospace;margin-left:7px}.text-button{border:0;background:none;font-size:10px;color:#4b795d;padding:3px 0;text-decoration:underline;text-underline-offset:3px}.detail-scores{display:grid;grid-template-columns:repeat(4,1fr);gap:10px}.detail-score{font-size:10px;color:var(--muted)}.detail-score strong{display:block;font-size:19px;font-weight:500;color:var(--ink);font-variant-numeric:tabular-nums;margin-top:7px}.detail-score strong small{font-size:10px;color:var(--muted);margin-left:4px}.timeline{width:100%;accent-color:#526d59;height:4px;margin:20px 0 4px;cursor:pointer}.chart-footer{border-top:1px solid #edf0e9;padding:14px 22px;font-size:10px;display:flex;align-items:center;justify-content:space-between;color:var(--muted);gap:8px;background:#fcfdfb}.chart-footer .button{padding:6px 9px;font-size:10px}.explanation{display:flex;gap:12px;align-items:flex-start;padding:22px 0 26px;color:var(--muted);font-size:11px;line-height:1.9}.info-icon{border:1px solid #a4ada3;border-radius:50%;width:15px;height:15px;line-height:13px;text-align:center;font:11px monospace;margin-top:4px;flex-shrink:0}.explanation p{margin:0}.explanation strong{font-weight:500;color:#4c584f}footer{padding:18px 0 24px;border-top:1px solid var(--line);display:flex;justify-content:space-between;gap:20px;font-size:10px;color:#8a9188;line-height:1.8}footer a:hover{color:#283d35}.footer-links{display:flex;flex-wrap:wrap;gap:15px}dialog{border:1px solid var(--line);border-radius:12px;max-width:380px;width:calc(100% - 36px);padding:26px;color:var(--ink)}dialog::backdrop{background:#172b3666}dialog h2{font-size:18px;margin:0 0 12px}dialog p{font-size:12px;line-height:1.9;color:var(--muted)}dialog .controls{justify-content:flex-end;margin-top:22px}.sr-only{position:absolute;width:1px;height:1px;overflow:hidden;clip-path:inset(50%)}
     @media(min-width:1100px){.chart-wrap{min-height:270px}}@media(max-width:900px){.shell{padding:0 22px}.main-grid{grid-template-columns:1fr 1fr;gap:16px}.panel-heading{padding:0 15px}.chart-top{flex-wrap:wrap;padding:17px 15px 6px}.history-detail{margin:0 15px}.chart-wrap{min-height:220px}.board-wrap{padding:13px}.score-card{padding:15px}.team-en{display:none}.score-number{font-size:30px}.detail-scores{gap:5px}.chart-footer{padding:12px 15px;flex-wrap:wrap}.header-note{font-size:9px}.chart-help{margin-bottom:12px}}
     @media(max-width:680px){.shell{padding:0 18px}header{height:70px}.header-note{letter-spacing:.5px;font-size:8px}.brand{font-size:17px}.intro{align-items:flex-start;flex-direction:column;padding:27px 0 22px;gap:18px}h1{font-size:25px}.controls{width:100%}.controls .button{flex:1}.scores{grid-template-columns:repeat(2,1fr);gap:10px;margin-bottom:17px}.score-card{padding:13px 15px}.team-en{display:block}.score-number{margin-top:6px;font-size:30px}.main-grid{grid-template-columns:1fr}.chart-wrap{height:260px;flex:auto;min-height:260px}.chart-top{flex-wrap:nowrap}.panel-heading{height:57px}.explanation{padding:20px 0}footer{flex-direction:column;gap:8px}.history-detail{padding-bottom:20px}.chart-footer{padding:13px 15px}.board-footer{padding:14px 16px}.chart-axis-label{padding-left:17px}}
+    .score-stats{margin-top:14px;padding-top:12px;border-top:1px solid var(--line)}
+    .score-stats-note{margin:0 0 10px;font-size:10px;color:var(--muted);line-height:1.6}
+    .score-stats dl{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:8px;margin:0}
+    .score-stats dt{font-size:10px;color:var(--muted);margin-bottom:5px}
+    .score-stats dd{margin:0;font-size:16px;font-weight:600;font-variant-numeric:tabular-nums;white-space:nowrap}
+    .score-delta[data-sign="positive"]{color:#34764d}
+    .score-delta[data-sign="negative"]{color:#b64540}
+    .score-delta[data-sign="neutral"]{color:var(--muted)}
+    @media(max-width:900px){.score-stats dl{gap:4px}.score-stats dd{font-size:13px}}
+    @media(max-width:360px){.score-stats dd{font-size:12px}.score-stats-note{font-size:9px}}
     @media(prefers-reduced-motion:reduce){*{transition:none!important}}
   </style>
 </head>
@@ -24,7 +34,7 @@
       <section class="panel"><div class="panel-heading"><h2 class="panel-title"><span class="panel-index">01</span>バトルフィールド</h2><span class="live" id="liveStatus">LIVE</span></div><div class="board-wrap"><canvas id="pongCanvas" width="800" height="800" role="img" aria-label="赤、青、緑、黄の4色が陣地を取り合うゲーム盤。得点は上部の色別スコアで確認できます。"></canvas></div><div class="board-footer"><span>経過時間 <b id="elapsed">00:00</b></span><span>32 × 32 マス <b>1,024 pt</b></span></div></section>
       <section class="panel chart-panel"><div class="panel-heading"><h2 class="panel-title"><span class="panel-index">02</span>スコアの推移</h2><span class="team-en">SCORE HISTORY</span></div><div class="chart-top"><div class="chart-legend" id="chartLegend"></div><label><span class="sr-only">グラフの表示期間</span><select id="timeRange"><option value="60">直近1分</option><option value="300">直近5分</option><option value="0" selected>全期間</option></select></label></div><div class="chart-axis-label">得点（占有マス数）</div><div class="chart-wrap"><canvas id="historyCanvas" role="img" aria-label="色別得点の時系列グラフ。横軸は経過時間、縦軸は0から1024点。下のスライダーでも過去の得点を確認できます。"></canvas></div><p class="chart-help">グラフにカーソルを合わせる・タップすると、その時点の得点を表示</p><div class="history-detail"><div class="detail-header"><span class="detail-title" id="detailLabel">最新の記録 <span id="inspectTime">00:00</span></span><button class="text-button" id="latestButton" type="button">最新に戻る</button></div><div class="detail-scores" id="detailScores"></div><label><span class="sr-only">過去の記録を選択（矢印キーで1秒ずつ移動）</span><input class="timeline" id="historySlider" type="range" min="0" max="0" value="0" step="1" aria-valuetext="0秒の記録"></label></div><div class="chart-footer"><span>1秒ごとに記録 <span aria-hidden="true">·</span> <span id="sampleCount">1</span> 件のデータ</span><button class="button" id="exportButton" type="button"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v12m-5-5 5 5 5-5M4 15v5h16v-5"/></svg>CSVを保存</button></div></section>
     </div>
-    <aside class="explanation"><span class="info-icon" aria-hidden="true">i</span><p><strong>1マス = 1点。</strong> ボールが他の色のマスに触れると、自分の陣地に変わります。4色の合計は常に1,024点。<br>グラフの時間はゲームの経過時間です。一時停止中・別タブ表示中は進みません。履歴は直近24時間分を保持し、リセット・ページ再読み込みで消去されます。</p></aside>
+    <aside class="explanation"><span class="info-icon" aria-hidden="true">i</span><p><strong>1マス = 1点。</strong> ボールが他の色のマスに触れると、自分の陣地に変わります。4色の合計は常に1,024点。<br>カードの現在値・最高値・最低値は、初期値256点からの増減です。最高値・最低値はゲーム開始からの全期間を対象とし、リセット・ページ再読み込みで初期化されます。<br>グラフの時間はゲームの経過時間です。一時停止中・別タブ表示中は進みません。履歴は直近24時間分を保持し、リセット・ページ再読み込みで消去されます。</p></aside>
   </main>
   <footer><span>Pong Wars · A little chaos, in four colors.</span><div class="footer-links"><a href="https://codyebberson.github.io/pong-wars/" target="_blank" rel="noopener noreferrer">参考にしたゲーム ↗</a><a href="https://github.com/vnglst/pong-wars" target="_blank" rel="noopener noreferrer">Original by Koen van Gilst ↗</a><a href="https://github.com/sukimamieldesign/20260908_astra_pong" target="_blank" rel="noopener noreferrer">GitHub ↗</a></div></footer>
 </div>
@@ -42,8 +52,8 @@ const teams = [
 const $ = id => document.getElementById(id);
 const board = $('pongCanvas'), ctx = board.getContext('2d');
 const chart = $('historyCanvas'), graph = chart.getContext('2d');
-const SIZE = 25, SIDE = 32, TOTAL = 1024, STEP = 1/60, MAX_SAMPLES = 86401;
-let cells, balls, scores, history, ticks, running = true, accumulator = 0, lastFrame = null;
+const SIZE = 25, SIDE = 32, TOTAL = 1024, INITIAL_SCORE = TOTAL / teams.length, STEP = 1/60, MAX_SAMPLES = 86401;
+let cells, balls, scores, highScores, lowScores, history, ticks, running = true, accumulator = 0, lastFrame = null;
 let selectedTime = null, chartBounds = null, chartWidth = 0, chartHeight = 0;
 let chartDirty = true, uiTime = 0;
 const formatTime = seconds => {
@@ -51,14 +61,16 @@ const formatTime = seconds => {
   const h = Math.floor(seconds / 3600), m = Math.floor(seconds / 60) % 60, s = seconds % 60;
   return (h ? String(h).padStart(2,'0') + ':' : '') + String(m).padStart(2,'0') + ':' + String(s).padStart(2,'0');
 };
-$('scoreCards').innerHTML = teams.map((t,i) => `<article class="score-card" id="card${i}" style="--team:${t.line}"><div class="score-top"><span class="team-label"><i class="dot" aria-hidden="true"></i>${t.name}</span><span class="team-en">${t.en}</span></div><div class="score-number"><span id="score${i}">256</span><small>pt</small></div><div class="score-bottom"><span>占有率</span><span id="share${i}">25.0%</span></div></article>`).join('');
+$('scoreCards').innerHTML = teams.map((t,i) => `<article class="score-card" id="card${i}" style="--team:${t.line}"><div class="score-top"><span class="team-label"><i class="dot" aria-hidden="true"></i>${t.name}</span><span class="team-en">${t.en}</span></div><div class="score-number"><span id="score${i}">256</span><small>pt</small></div><div class="score-bottom"><span>占有率</span><span id="share${i}">25.0%</span></div><div class="score-stats"><p class="score-stats-note">初期値 ${INITIAL_SCORE} pt からの増減</p><dl aria-label="ゲーム開始からの得点増減（単位：点）"><div><dt>現在値</dt><dd class="score-delta" id="delta${i}">±0</dd></div><div><dt>最高値</dt><dd class="score-delta" id="high${i}">±0</dd></div><div><dt>最低値</dt><dd class="score-delta" id="low${i}">±0</dd></div></dl></div></article>`).join('');
 $('chartLegend').innerHTML = teams.map(t => `<span class="legend-item" style="--team:${t.line}"><i class="legend-line" aria-hidden="true"></i>${t.name}</span>`).join('');
 $('detailScores').innerHTML = teams.map((t,i) => `<div class="detail-score" style="--team:${t.line}"><span class="team-label"><i class="dot" aria-hidden="true"></i>${t.name}</span><strong><span id="past${i}">256</span><small>pt</small></strong></div>`).join('');
 function resetGame() {
   cells = new Uint8Array(TOTAL);
   for(let y=0;y<SIDE;y++) for(let x=0;x<SIDE;x++) cells[y*SIDE+x] = (x>=16 ? 1 : 0) + (y>=16 ? 2 : 0);
   balls = teams.map(t => ({x:t.start[0],y:t.start[1],dx:t.start[2],dy:t.start[3]}));
-  scores = [256,256,256,256]; ticks = 0; accumulator = 0; lastFrame = null;
+  scores = teams.map(() => INITIAL_SCORE);
+  highScores = [...scores]; lowScores = [...scores];
+  ticks = 0; accumulator = 0; lastFrame = null;
   history = [{time:0,scores:[...scores]}]; selectedTime = null;
   chartDirty = true; updateUI(); drawBoard();
 }
@@ -72,6 +84,9 @@ function simulate() {
       const index = y*SIDE+x, previous = cells[index];
       if(previous === team) continue;
       cells[index] = team; scores[previous]--; scores[team]++;
+      // Track every capture, independently of chart sampling and its history limit.
+      highScores[team] = Math.max(highScores[team], scores[team]);
+      lowScores[previous] = Math.min(lowScores[previous], scores[previous]);
       if(Math.abs(c)>Math.abs(s)) flipX = true; else flipY = true;
     }
     if(flipX) b.dx = -b.dx + (Math.random()-.5)*.3;
@@ -109,11 +124,20 @@ function updateDetail() {
   const slider = $('historySlider'); slider.max = history.length-1; slider.value = index;
   slider.setAttribute('aria-valuetext',`${sample.time}秒：${teams.map((t,i)=>t.name+sample.scores[i]+'点').join('、')}`);
 }
+function updateDelta(id, score) {
+  const delta = score - INITIAL_SCORE, element = $(id);
+  element.textContent = delta === 0 ? '±0' : (delta > 0 ? '+' : '−') + Math.abs(delta).toLocaleString('ja-JP');
+  element.dataset.sign = delta === 0 ? 'neutral' : delta > 0 ? 'positive' : 'negative';
+  element.title = `${score.toLocaleString('ja-JP')} pt（初期値 ${INITIAL_SCORE} pt 比）`;
+}
 function updateUI() {
   scores.forEach((score,i) => {
     const share = (score/TOTAL*100).toFixed(1)+'%';
     $('score'+i).textContent = score.toLocaleString('ja-JP');
     $('share'+i).textContent = share; $('card'+i).style.setProperty('--share',share);
+    updateDelta('delta'+i, score);
+    updateDelta('high'+i, highScores[i]);
+    updateDelta('low'+i, lowScores[i]);
   });
   $('elapsed').textContent = formatTime(ticks/60);
   $('sampleCount').textContent = history.length.toLocaleString('ja-JP');
